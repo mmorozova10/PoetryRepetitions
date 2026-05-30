@@ -183,7 +183,7 @@ filename = input("Введите имя файла: ")
 if filename:
     poem = PoemRepetitions(filename)
 else:
-    poem = PoemRepetitions('texts/poems/test.txt')
+    poem = PoemRepetitions('texts/poems/blok-rabochie-na-reyde.txt')
 
 index = input("Введите номер строки: ")
 if index:
